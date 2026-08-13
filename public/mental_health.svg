@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="100%" stop-color="#FAF4E6"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7BC54"/>
+      <stop offset="50%" stop-color="#DEAA3E"/>
+      <stop offset="100%" stop-color="#C99736"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#319795"/>
+      <stop offset="100%" stop-color="#1A365D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Gold Ring -->
+  <circle cx="400" cy="400" r="370" fill="none" stroke="url(#goldGrad)" stroke-width="12"/>
+
+  <!-- Decorative Leaves & Wellness Graphics -->
+  <g transform="translate(400, 360)">
+    <!-- Serene Silhouette head/mind -->
+    <path d="M-60,80 C-60,0 -40,-80 0,-100 C40,-80 60,0 60,80 Z" fill="#1A365D" opacity="0.85"/>
+    
+    <!-- Heart in mind -->
+    <path d="M-20,-40 C-35,-60 -50,-30 -20,0 C10,-30 -5,-60 -20,-40 Z" fill="url(#goldGrad)"/>
+    
+    <!-- Flowing leaves -->
+    <path d="M-120,40 C-160,-20 -100,-80 -40,-40 C-80,0 -80,20 -120,40 Z" fill="#319795" opacity="0.7"/>
+    <path d="M120,40 C160,-20 100,-80 40,-40 C80,0 80,20 120,40 Z" fill="#319795" opacity="0.7"/>
+  </g>
+  
+  <!-- Warm Sun Overlay -->
+  <circle cx="400" cy="200" r="70" fill="url(#goldGrad)" opacity="0.4"/>
+</svg>

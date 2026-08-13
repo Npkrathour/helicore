@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-abhaya), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --color-gold-400: #E5BA51;
+  --color-gold-500: #D4A338;
+  --color-gold-600: #B88526;
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-abhaya), Georgia, serif;
+  }
+
+  .font-abhaya {
+    font-family: var(--font-abhaya), Georgia, serif;
+  }
+}
+
+h2,
+p,
+button,
+a {
+  font-family: var(--font-abhaya), Georgia, serif;
+}
