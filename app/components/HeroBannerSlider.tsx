@@ -130,8 +130,9 @@ export default function HeroBannerSlider() {
       {slides.map((slide, index) => (
         <div
           key={slide.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
-            }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
+          }`}
         >
           <Image
             src={slide.image}
@@ -148,9 +149,7 @@ export default function HeroBannerSlider() {
       <div className="absolute inset-0 z-20 bg-linear-to-t from-black/80 via-transparent to-black/30" />
 
       <div className="relative z-30 max-w-7xl mx-auto h-full px-6 sm:px-10 lg:px-16 flex flex-col justify-between py-12 md:py-16">
-
         <div className="my-auto max-w-xl space-y-4 md:space-y-6 pt-4 sm:pt-0">
-
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-[1.15] tracking-tight text-white drop-shadow-md">
             {slides[currentSlide].titleTop} <br />
             {slides[currentSlide].titleBottom}
@@ -188,10 +187,11 @@ export default function HeroBannerSlider() {
                 >
                   <svg
                     viewBox="0 0 24 24"
-                    className={`w-4 h-4 sm:w-5 sm:h-5 transition-all duration-300 cursor-pointer ${isActive
-                      ? "scale-110 drop-shadow-[0_0_8px_rgba(214,163,56,0.8)]"
-                      : "opacity-60 hover:opacity-100 hover:scale-105"
-                      }`}
+                    className={`w-4 h-4 sm:w-5 sm:h-5 transition-all duration-300 cursor-pointer ${
+                      isActive
+                        ? "scale-110 drop-shadow-[0_0_8px_rgba(214,163,56,0.8)]"
+                        : "opacity-60 hover:opacity-100 hover:scale-105"
+                    }`}
                   >
                     <polygon
                       points="12 2, 21 7, 21 17, 12 22, 3 17, 3 7"
@@ -205,7 +205,7 @@ export default function HeroBannerSlider() {
               );
             })}
           </div>
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
             <button
               onClick={prevSlide}
               aria-label="Previous Slide"
@@ -220,7 +220,7 @@ export default function HeroBannerSlider() {
             >
               <ChevronRight className="w-5 h-5" />
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
