@@ -26,7 +26,7 @@ const states: State[] = [
     name: "Oregon",
     status: "Coming Soon",
     image:
-      "https://images.pexels.com/photos/27507149/pexels-photo-27507149.jpeg",
+      "https://images.pexels.com/photos/36845792/pexels-photo-36845792.jpeg",
   },
   {
     name: "New Mexico",
@@ -38,13 +38,13 @@ const states: State[] = [
     name: "Colorado",
     status: "Virtual Appointment",
     image:
-      "https://images.pexels.com/photos/27507149/pexels-photo-27507149.jpeg",
+      "https://images.pexels.com/photos/36845792/pexels-photo-36845792.jpeg",
   },
   {
     name: "Kansas",
     status: "Virtual Appointment",
     image:
-      "https://images.pexels.com/photos/27507149/pexels-photo-27507149.jpeg",
+      "https://images.pexels.com/photos/16922246/pexels-photo-16922246.jpeg",
   },
 ];
 
